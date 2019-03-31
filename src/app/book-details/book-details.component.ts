@@ -17,7 +17,6 @@ export class BookDetailsComponent implements OnInit {
   }
 
   editButton(id){
-  
     this.edit.emit(id);
   }
 

@@ -1,12 +1,2 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to my book library!
-  </h1>
-</div>
-<div *ngFor="let book of books" class="book-library">
-  <app-book-details class="book" [item]="book" (edit)="editEmit($event)" ></app-book-details>
-</div>
 
-
-<app-book-edit *ngIf="editMode" [book]="editBook" (saveBook)="saveEmit($event)"></app-book-edit>
+<app-nav-bar></app-nav-bar>

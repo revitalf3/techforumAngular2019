@@ -1,8 +1,16 @@
 .edit-book{
+    padding: 20px;
+    height: 200px;
+    background-color: aliceblue;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
     width: 300px;
     display: grid;
 
     .btn-save{
-        width: 50px;
+        width: 100px;
+        margin: 20px;
     }
 }

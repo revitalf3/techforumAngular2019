@@ -1,0 +1,3 @@
+<div *ngFor="let book of books" class="book-library">
+  <app-book-details class="book" [item]="book" (edit)="editEmit(book)" ></app-book-details>
+</div>
